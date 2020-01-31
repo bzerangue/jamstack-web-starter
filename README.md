@@ -25,6 +25,7 @@
 - The project uses [Eleventy](https://11ty.io) as a static site generator
 - Default templating is [Nunjucks](https://mozilla.github.io/nunjucks/) (can be changed if you want)
 - PostCSS set up to handle:
+	- PostCSS Import and PostCSS Nested
 	- TailwindCSS
 	- Autoprefixer 
 - PurgeCSS to remove unused CSS (set up for TailwindCSS by default) in production
@@ -76,6 +77,7 @@ If you don't have an existing place to host your site you should have a look at 
 - [TailwindCSS](https://tailwindcss.com/)
 - [PostCSS](https://github.com/postcss)
 	- Autoprefixer
+	- PostCSS Import and PostCSS Nested
 - [Babel](https://babeljs.io/)
 - [Webpack](https://webpack.js.org/)
 - [PurgeCSS](https://github.com/FullHuman/purgecss)
@@ -83,3 +85,4 @@ If you don't have an existing place to host your site you should have a look at 
 - [Concurrently](https://www.npmjs.com/package/concurrently)
 - [HTML Minifier](https://www.npmjs.com/package/html-minifier)
 - [JS YAML](https://www.npmjs.com/package/js-yaml)
+- [Chris Collins](https://github.com/scottishstoater) (Based off of his repo)
