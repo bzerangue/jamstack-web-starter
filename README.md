@@ -2,7 +2,7 @@
 	<img src="/src/static/icon.svg" alt="Rocket icon" width="56" align="center" />
 </p>
 
-<p align="center"><a href="https://webstarter.chriscollins.me"><strong>JAMStack Web Starter</strong></a></p>
+<p align="center"><strong>JAMStack Web Starter</strong></p>
 
 <p align="center"><em>Eleventy · Tailwind CSS · HTML · CSS · Javascript</em></p>
 
@@ -66,7 +66,7 @@ You can host the production output on any web server or service you like and upl
 
 If you don't have an existing place to host your site you should have a look at [Netlify](https://www.netlify.com), I can't recommend it enough. To get started you can hit the button below.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chrisssycollins/web-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/bzerangue/jamstack-web-starter)
 
 ---
 
