@@ -9,6 +9,7 @@ description: "Minimal boilerplate for new projects built with Eleventy, Tailwind
 url: ""
 
 author: "Brian Zerangue"
+author_url: "https://brianzerangue.com"
 meta_data: 
  twitter: "@hi_bz"
  default_social_image: "/static/default_social_image.jpg"
