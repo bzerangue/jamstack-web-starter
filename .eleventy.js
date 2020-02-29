@@ -31,6 +31,9 @@ module.exports = function (eleventyConfig) {
     // Add YAML support for data files
     eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
 
+    // This allows Eleventy to watch for file changes during local development.
+    eleventyConfig.setUseGitIgnore(false);
+
     return {
         dir: {
             input: "src/",

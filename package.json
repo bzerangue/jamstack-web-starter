@@ -4,7 +4,7 @@
   "description": "Minimal boilerplate for new projects built with Eleventy, Tailwind and PostCSS",
   "scripts": {
     "start": "concurrently \"postcss src/_assets/stylesheets/*.css -o src/static/app.compiled.css --watch --verbose\" \"webpack --watch --config webpack.config.js\" \"eleventy --serve --watch\"",
-    "build": "del dist && eleventy && postcss src/_assets/stylesheets/app.css -o src/static/app.compiled.css && purgecss --config ./purgecss.config.js --out src/_includes/ && webpack -p --config webpack.config.js && ELEVENTY_ENV=production eleventy"
+    "build": "del dist && eleventy && NODE_ENV=production postcss src/_assets/stylesheets/app.css -o src/_includes/app.compiled.css && webpack -p --config webpack.config.js && ELEVENTY_ENV=production eleventy"
   },
   "author": "Brian Zerangue",
   "license": "ISC",
@@ -22,7 +22,7 @@
     "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1",
-    "purgecss": "^1.4.2",
+    "@fullhuman/postcss-purgecss": "^2.0.5",
     "tailwindcss": "^1.1.4",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
